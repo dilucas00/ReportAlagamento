@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/uploads', express.static('uploads'));
 
-mongoose.connect('mongodb+srv://gabriel:n3GrUFr0q33S8DFQ@cluster0.ttyszhn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('SEULINK_MONGODB');
 
 const Alagamento = mongoose.model('Alagamento', {
   nameLocal: String,
