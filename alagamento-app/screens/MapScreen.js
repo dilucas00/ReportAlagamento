@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import MapView, { Marker } from 'react-native-maps';
 import { View, ActivityIndicator } from 'react-native';
 
-const API_URL = 'http://172.26.33.59:3000';
+const API_URL = 'http://IP_USUARIO:3000';
 
 export default function MapScreen() {
   const [alagamento, setAlagamento] = useState([]);
