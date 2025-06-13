@@ -4,7 +4,7 @@ import { FAB, Card, Title, Paragraph } from 'react-native-paper';
 import { useNavigation } from '@react-navigation/native';
 import styles from '../styles/styles';
 
-const API_URL = 'http://172.26.33.59:3000';
+const API_URL = 'http://IP_USUARIO:3000';
 
 export default function HomeScreen() {
   const [alagamento, setAlagamento] = useState([]);
