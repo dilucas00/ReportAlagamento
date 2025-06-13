@@ -5,7 +5,7 @@ import * as Location from 'expo-location';
 import * as ImagePicker from 'expo-image-picker';
 import styles from '../styles/styles';
 
-const API_URL = 'http://172.26.33.59:3000';
+const API_URL = 'http://IP_USUARIO:3000';
 
 export default function AddAlagamentoScreen({ navigation }) {
   const [nameLocal, setNameLocal] = useState('');
